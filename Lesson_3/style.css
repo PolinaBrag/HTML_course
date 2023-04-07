@@ -29,6 +29,9 @@ header {
 }
 
 .navigation {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
     padding-top: 39px;
     padding-bottom: 39px;
 }
@@ -45,8 +48,13 @@ main {
     margin-bottom: 197px;
 }
 
-.main__content {
+.main__content_leftSide {
     width: 604px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
 }
 
 .smallTitle {
@@ -60,6 +68,7 @@ main {
 }
 
 .bigTitle {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 800;
     font-size: 55px;
@@ -80,6 +89,8 @@ main {
 }
 
 .btnsList {
+    display: flex;
+    gap: 20px;
 }
 
 .btn {
@@ -99,4 +110,6 @@ footer {
 }
 
 .logos {
+    display: flex;
+    justify-content: space-between;
 }

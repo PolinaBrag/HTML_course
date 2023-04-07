@@ -32,7 +32,7 @@ img {
 }
 
 .container {
-    width: 1170;
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -42,15 +42,24 @@ header {
     margin-bottom: 84px;
 }
 
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .headLogo {
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 40px;
 }
 
 .navigation {
     padding-top: 11px;
     padding-bottom: 12px;
     width: 533px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
 }
 
 .link__first {
@@ -67,11 +76,14 @@ header {
     color: #000000;
 }
 
-main {
+.main__content {
     margin-bottom: 259px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 39px;
 }
 
-.main__content {
+.main__content_leftSide {
     width: 522px;
 }
 
@@ -93,6 +105,8 @@ main {
 }
 
 .btnsList {
+    display: flex;
+    gap: 42px;
 }
 
 .btn1 {
@@ -122,4 +136,6 @@ footer {
 }
 
 .logos {
+    display: flex;
+    justify-content: space-between;
 }
