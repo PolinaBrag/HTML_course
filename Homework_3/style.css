@@ -13,6 +13,11 @@
     src: url(./fonts/Gilroy-Medium.woff2);
 }
 
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./fonts/Gilroy-Regular.woff2);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -131,11 +136,160 @@ header {
     background: #ffffff;
 }
 
-footer {
-    margin-bottom: 96px;
-}
-
 .logos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.center_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_cards img {
+    padding-bottom: 25px;
+}
+
+.center_cards p {
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    padding-bottom: 25px;
+}
+
+.center_cards h2 {
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 17px;
+}
+
+.center_cards h4 {
+    font-family: "Gilroy-Bold";
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.center_card {
+    padding: 40px 31px 25px 29px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    width: 370px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.left_card {
+    width: 310px;
+    margin-bottom: 125px;
+    margin-top: 140px;
+}
+
+.right_card {
+    width: 310px;
+    margin-bottom: 125px;
+    margin-top: 140px;
+}
+
+.choose_block {
+    background: #fafafa;
+    padding-bottom: 100px;
+}
+
+.choose_content {
+}
+
+.choose_headers {
+    padding-top: 92px;
+    padding-bottom: 54px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose_headers h2 {
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.choose_headers p {
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    width: 682px;
+    text-align: center;
+}
+
+.choose_cards {
+    display: flex;
+    gap: 30px;
+    width: 370;
+    text-align: center;
+}
+
+.choose_cards img {
+    padding-bottom: 25px;
+}
+
+.choose_cards h2 {
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 22px;
+    text-align: center;
+}
+
+.choose_cards p {
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #aaaaaa;
+    padding-bottom: 39px;
+    width: 310px;
+}
+
+.choose_btn {
+    border: none;
+    background: #f25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    padding: 15px 26px 15px 46px;
+    margin-bottom: 50px;
+    font-family: "Gilroy-Bold";
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.choose_card1 {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose_card2 {
+    background: #ffffff;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose_card3 {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
