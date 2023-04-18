@@ -156,3 +156,52 @@ main {
     grid-row: span 2;
     gap: 60px;
 }
+
+@media (max-width: 848px) {
+    .container {
+        width: 767px;
+    }
+
+    .main__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 128px;
+        padding: 0px 81px;
+    }
+
+    .smallTitle {
+        font-size: 16px;
+    }
+
+    .bigTitle {
+        width: 604px;
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .main__content img {
+        width: 414px;
+    }
+
+    .logos {
+        width: 604px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-bottom: 120px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        justify-items: center;
+    }
+
+    .card {
+        width: 362px;
+    }
+}
