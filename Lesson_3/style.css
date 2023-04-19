@@ -205,3 +205,69 @@ main {
         width: 362px;
     }
 }
+
+@media (max-width: 375px) {
+    .container {
+        width: 343px;
+    }
+
+    header {
+        margin-bottom: 64px;
+    }
+
+    .navigation {
+        gap: 16px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+
+    .link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .main__content {
+        padding: 0px;
+    }
+
+    .main__content_leftSide {
+        width: 343px;
+        text-align: center;
+    }
+
+    .smallTitle {
+        font-size: 14px;
+        line-height: 160%;
+        margin-bottom: 16px;
+    }
+
+    .bigTitle {
+        font-size: 28px;
+        line-height: 130%;
+        width: 343px;
+        margin-bottom: 64px;
+    }
+
+    .text {
+        width: 343px;
+        margin-bottom: 39px;
+    }
+
+    .btnsList {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .main__content img {
+        width: 343px;
+    }
+
+    .logos {
+        width: auto;
+    }
+
+    .card {
+        width: 343px;
+    }
+}
