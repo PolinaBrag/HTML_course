@@ -1,0 +1,14 @@
+.content_audio {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_video {
+    height: 100vh;
+}
+
+video {
+    height: 100%;
+}
