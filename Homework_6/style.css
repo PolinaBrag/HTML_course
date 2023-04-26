@@ -290,6 +290,218 @@ button {
     cursor: pointer;
 }
 
+.quality__block {
+    height: 341px;
+    background: #222224;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.block {
+    width: 360px;
+}
+
+.img_block_1 {
+    width: 45px;
+    padding-bottom: 28px;
+}
+
+.img_block_2 {
+    width: 40px;
+    padding-bottom: 19px;
+}
+
+.img_block_3 {
+    width: 47px;
+    padding-bottom: 25px;
+}
+
+.block h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #fbfbfb;
+    padding-bottom: 16px;
+}
+
+.block p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.bac {
+    background: rgba(244, 244, 244, 0.7);
+    width: auto;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 223px;
+}
+
+.subscribe {
+    height: 448px;
+    background-image: url(./img/sub_back.jpg);
+    background-size: contain;
+}
+
+.subscribe_left {
+    width: 359px;
+    height: 225px;
+    padding-bottom: 126px;
+}
+
+.subscribe_left img {
+    width: 96px;
+    margin-bottom: 30px;
+}
+
+.subscribe_left p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    height: 99px;
+    width: 360px;
+}
+
+.italic_text {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe_right {
+    width: 557px;
+    height: 142px;
+    padding-bottom: 126px;
+}
+
+.subscribe_right h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe_right h5 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222224;
+    padding-bottom: 32px;
+}
+
+.email__input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub_btn {
+    background: #f16d7f;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    height: 49px;
+    width: 100px;
+    margin-bottom: 156px;
+    justify-content: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.input_form {
+    background: #e1e1e1;
+    height: 49px;
+    width: 256px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 0 20px;
+}
+
+footer {
+    height: 79px;
+    background-color: #222224;
+    display: flex;
+    gap: 655px;
+}
+
+.legacy {
+    width: 322px;
+    margin-left: 235px;
+}
+
+.legacy h6 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fbfbfb;
+    margin-top: 30px;
+}
+
+.footer_logos {
+    display: flex;
+    gap: 7px;
+    margin-top: 24px;
+    margin-right: 230px;
+}
+.square {
+    width: 32px;
+    height: 32px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.svg_1 {
+    width: 9px;
+}
+
+.svg_2 {
+    width: 15px;
+}
+
+.svg_3 {
+    width: 12px;
+}
+
+.svg_4 {
+    width: 16px;
+}
+
 @media (max-width: 768px) {
     .container {
         width: 735px;
@@ -405,6 +617,57 @@ button {
     .btn {
         margin-top: 33px;
         margin-bottom: 71px;
+    }
+
+    .quality__block {
+        height: 610px;
+        display: flex;
+        gap: 49px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bac {
+        height: 614px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .subscribe {
+        height: 614px;
+        background-size: cover;
+        background-image: url(./img/sub_back_pl.jpg);
+    }
+
+    .subscribe_left {
+        width: 359px;
+        height: 225px;
+    }
+
+    .subscribe_right {
+        width: 557px;
+        height: 137px;
+        padding-bottom: 0px;
+    }
+
+    footer {
+        gap: 305px;
+    }
+
+    .sub_btn {
+        margin-bottom: 0px;
+    }
+
+    .legacy {
+        width: 251px;
+        margin-left: 32px;
+    }
+
+    .footer_logos {
+        margin-right: 32px;
     }
 }
 
@@ -529,5 +792,122 @@ button {
         align-items: center;
         justify-content: center;
         margin-bottom: 41px;
+    }
+
+    .quality__block {
+        height: 610px;
+        display: flex;
+        gap: 46px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block {
+        width: 348px;
+    }
+
+    .img_block_1 {
+        width: 43px;
+        padding-bottom: 27px;
+    }
+
+    .img_block_2 {
+        width: 38px;
+        padding-bottom: 18px;
+    }
+
+    .img_block_3 {
+        width: 45px;
+        padding-bottom: 24px;
+    }
+
+    .bac {
+        height: 610px;
+        flex-direction: column;
+        gap: 59px;
+    }
+
+    .subscribe {
+        height: 610px;
+        background-image: url(./img/sub_back_mb.jpg);
+    }
+
+    .subscribe_left {
+        width: 343px;
+        height: 194px;
+        padding-bottom: 0px;
+    }
+
+    .subscribe_left img {
+        width: 91px;
+    }
+
+    .subscribe_left p {
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+        color: #222224;
+        height: 73px;
+        width: 343px;
+    }
+
+    .italic_text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .subscribe_right {
+        width: 341px;
+        height: 123px;
+        padding-bottom: 0px;
+    }
+
+    .subscribe_right h5 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #222224;
+        padding-bottom: 22px;
+    }
+
+    .sub_btn {
+        height: 47px;
+        width: 96px;
+        margin-bottom: px;
+    }
+
+    .input_form {
+        height: 46px;
+    }
+
+    footer {
+        height: 143px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .legacy {
+        width: 251px;
+        margin-left: 62px;
+    }
+
+    .footer_logos {
+        display: flex;
+        gap: 7px;
+        margin-top: 40px;
+        margin-left: 114px;
+    }
+
+    .legacy h6 {
+        margin-top: 0px;
+        margin-bottom: 9px;
     }
 }
